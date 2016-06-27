@@ -5,25 +5,32 @@
 }
 #title1{
 	clear: left;
+	font-size: 30px;
 	border: 1px solid black;
 	text-align: center;
-	background-color: #33CC33;
-	color: white;
+	background-color: #99FF66;
 	position: relative;
+	color: black;
 	top: 0;
-	left: 66.67%;
-	width: 33.33%;
+	left: 60%;
+	width: 40%;
+	height: 40px;
 }
 div.cont {
 	border: 1px solid black;
 	margin-top: 30px;
 	position: relative;
-	background-color: #FF99CC;
+	background-color: #6699FF;
+	color: white;
 	font-size: 16px;
-	padding-left: 5%;
 	text-align: left;
 	width: 80%;
 	margin: 10%;
+}
+div.content{
+	padding: 5%;
+	font-size: 115%;
+
 }
 
 @media (min-width: 992px) {
@@ -154,7 +161,7 @@ div.cont {
 }
 h1{
 	margin-bottom: 50px;
-	font-size: 36px;
+	font-size: 46px;
 	color: #000066;
 	text-align: center;
 }
